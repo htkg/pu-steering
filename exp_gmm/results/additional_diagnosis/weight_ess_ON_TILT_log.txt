@@ -1,0 +1,67 @@
+==========================================================================================
+Classifier-weight ESS along path (ON_TILT) — 2026-07-30 15:22:29
+ON_TILT: DNG(l0=0.6) proposal, w_q = tilt only (ESS-adaptive, tilt_max=3), resample at t=40 — raw metrics
+M=1024, T=100, 5 layouts x 10 seeds = 50 trials
+==========================================================================================
+  L0s  0: raw_pm=0.0072 | ESS/M mean  w_u=0.667 w_c=0.142 w_q=0.830 | min w_c=0.002
+  L0s  1: raw_pm=0.0051 | ESS/M mean  w_u=0.456 w_c=0.145 w_q=0.862 | min w_c=0.001
+  L0s  2: raw_pm=0.0067 | ESS/M mean  w_u=0.537 w_c=0.147 w_q=0.832 | min w_c=0.002
+  L0s  3: raw_pm=0.0067 | ESS/M mean  w_u=0.665 w_c=0.177 w_q=0.817 | min w_c=0.008
+  L0s  4: raw_pm=0.0041 | ESS/M mean  w_u=0.746 w_c=0.152 w_q=0.828 | min w_c=0.002
+  L0s  5: raw_pm=0.0043 | ESS/M mean  w_u=0.734 w_c=0.165 w_q=0.826 | min w_c=0.005
+  L0s  6: raw_pm=0.0048 | ESS/M mean  w_u=0.582 w_c=0.183 w_q=0.821 | min w_c=0.005
+  L0s  7: raw_pm=0.0077 | ESS/M mean  w_u=0.494 w_c=0.141 w_q=0.848 | min w_c=0.003
+  L0s  8: raw_pm=0.0036 | ESS/M mean  w_u=0.729 w_c=0.157 w_q=0.826 | min w_c=0.002
+  L0s  9: raw_pm=0.0002 | ESS/M mean  w_u=0.775 w_c=0.168 w_q=0.812 | min w_c=0.004
+  L1s  0: raw_pm=0.0001 | ESS/M mean  w_u=0.638 w_c=0.130 w_q=0.828 | min w_c=0.001
+  L1s  1: raw_pm=0.0000 | ESS/M mean  w_u=0.477 w_c=0.114 w_q=0.829 | min w_c=0.001
+  L1s  2: raw_pm=0.0010 | ESS/M mean  w_u=0.655 w_c=0.138 w_q=0.825 | min w_c=0.001
+  L1s  3: raw_pm=0.0130 | ESS/M mean  w_u=0.414 w_c=0.117 w_q=0.561 | min w_c=0.001
+  L1s  4: raw_pm=0.0033 | ESS/M mean  w_u=0.394 w_c=0.104 w_q=0.857 | min w_c=0.002
+  L1s  5: raw_pm=0.0010 | ESS/M mean  w_u=0.644 w_c=0.112 w_q=0.827 | min w_c=0.001
+  L1s  6: raw_pm=0.0002 | ESS/M mean  w_u=0.449 w_c=0.120 w_q=0.826 | min w_c=0.001
+  L1s  7: raw_pm=0.0010 | ESS/M mean  w_u=0.475 w_c=0.123 w_q=0.767 | min w_c=0.001
+  L1s  8: raw_pm=0.0039 | ESS/M mean  w_u=0.472 w_c=0.104 w_q=0.830 | min w_c=0.003
+  L1s  9: raw_pm=0.0020 | ESS/M mean  w_u=0.432 w_c=0.114 w_q=0.909 | min w_c=0.001
+  L2s  0: raw_pm=0.0201 | ESS/M mean  w_u=0.630 w_c=0.160 w_q=0.843 | min w_c=0.007
+  L2s  1: raw_pm=0.0140 | ESS/M mean  w_u=0.558 w_c=0.153 w_q=0.824 | min w_c=0.003
+  L2s  2: raw_pm=0.0215 | ESS/M mean  w_u=0.433 w_c=0.147 w_q=0.880 | min w_c=0.003
+  L2s  3: raw_pm=0.0121 | ESS/M mean  w_u=0.737 w_c=0.178 w_q=0.824 | min w_c=0.016
+  L2s  4: raw_pm=0.0182 | ESS/M mean  w_u=0.464 w_c=0.165 w_q=0.824 | min w_c=0.001
+  L2s  5: raw_pm=0.0114 | ESS/M mean  w_u=0.655 w_c=0.164 w_q=0.818 | min w_c=0.002
+  L2s  6: raw_pm=0.0155 | ESS/M mean  w_u=0.661 w_c=0.169 w_q=0.828 | min w_c=0.006
+  L2s  7: raw_pm=0.0044 | ESS/M mean  w_u=0.740 w_c=0.178 w_q=0.811 | min w_c=0.005
+  L2s  8: raw_pm=0.0119 | ESS/M mean  w_u=0.655 w_c=0.167 w_q=0.822 | min w_c=0.013
+  L2s  9: raw_pm=0.0223 | ESS/M mean  w_u=0.449 w_c=0.158 w_q=0.833 | min w_c=0.003
+  L3s  0: raw_pm=0.0242 | ESS/M mean  w_u=0.649 w_c=0.185 w_q=0.819 | min w_c=0.016
+  L3s  1: raw_pm=0.0195 | ESS/M mean  w_u=0.482 w_c=0.181 w_q=0.899 | min w_c=0.003
+  L3s  2: raw_pm=0.0232 | ESS/M mean  w_u=0.413 w_c=0.163 w_q=0.904 | min w_c=0.003
+  L3s  3: raw_pm=0.0172 | ESS/M mean  w_u=0.532 w_c=0.173 w_q=0.854 | min w_c=0.004
+  L3s  4: raw_pm=0.0194 | ESS/M mean  w_u=0.520 w_c=0.185 w_q=0.889 | min w_c=0.002
+  L3s  5: raw_pm=0.0116 | ESS/M mean  w_u=0.719 w_c=0.179 w_q=0.826 | min w_c=0.010
+  L3s  6: raw_pm=0.0096 | ESS/M mean  w_u=0.779 w_c=0.183 w_q=0.808 | min w_c=0.023
+  L3s  7: raw_pm=0.0126 | ESS/M mean  w_u=0.666 w_c=0.180 w_q=0.826 | min w_c=0.007
+  L3s  8: raw_pm=0.0097 | ESS/M mean  w_u=0.814 w_c=0.187 w_q=0.812 | min w_c=0.010
+  L3s  9: raw_pm=0.0223 | ESS/M mean  w_u=0.555 w_c=0.184 w_q=0.846 | min w_c=0.002
+  L4s  0: raw_pm=0.0165 | ESS/M mean  w_u=0.410 w_c=0.104 w_q=0.871 | min w_c=0.005
+  L4s  1: raw_pm=0.0089 | ESS/M mean  w_u=0.758 w_c=0.127 w_q=0.826 | min w_c=0.011
+  L4s  2: raw_pm=0.0037 | ESS/M mean  w_u=0.603 w_c=0.129 w_q=0.810 | min w_c=0.002
+  L4s  3: raw_pm=0.0170 | ESS/M mean  w_u=0.380 w_c=0.115 w_q=0.913 | min w_c=0.003
+  L4s  4: raw_pm=0.0081 | ESS/M mean  w_u=0.498 w_c=0.087 w_q=0.844 | min w_c=0.002
+  L4s  5: raw_pm=0.0100 | ESS/M mean  w_u=0.443 w_c=0.114 w_q=0.839 | min w_c=0.006
+  L4s  6: raw_pm=0.0086 | ESS/M mean  w_u=0.681 w_c=0.119 w_q=0.833 | min w_c=0.003
+  L4s  7: raw_pm=0.0054 | ESS/M mean  w_u=0.423 w_c=0.120 w_q=0.827 | min w_c=0.003
+  L4s  8: raw_pm=0.0113 | ESS/M mean  w_u=0.512 w_c=0.115 w_q=0.863 | min w_c=0.003
+  L4s  9: raw_pm=0.0113 | ESS/M mean  w_u=0.559 w_c=0.126 w_q=0.855 | min w_c=0.004
+
+==========================================================================================
+ESS/M of classifier weights, by diffusion time (mean over steps x trials; min = worst step)
+==========================================================================================
+       bin |  w_u mean  w_u min |  w_c mean  w_c min |  w_q mean  w_q min
+  --------------------------------------------------------------------------
+   overall |     0.576    0.004 |     0.147    0.001 |     0.833    0.055
+     early |     0.863    0.022 |     0.396    0.002 |     0.855    0.795
+       mid |     0.516    0.004 |     0.041    0.001 |     0.869    0.060
+      late |     0.357    0.004 |     0.008    0.001 |     0.776    0.055
+
+Done — 2026-07-30 15:36:14

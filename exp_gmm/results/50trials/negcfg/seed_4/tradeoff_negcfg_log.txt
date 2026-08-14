@@ -1,0 +1,103 @@
+====================================================================================================
+NegCFG Tradeoff Sweep
+Lambdas: [0.0, 0.1, 0.2, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0]
+Config f GMM (radius=10, sharp), T=100, M=1024
+5 layouts x 1 seeds = 5 trials
+====================================================================================================
+
+--- Oracle ---
+  pm=0.0125  leak=0.0086  wass=1.5
+
+--- NegCFG lam=0.0 ---
+  L0s  4: pm=0.2374 leak=0.2354 wass=3.4 mc=1.00 elapsed=0.6s
+  L1s  4: pm=0.2686 leak=0.2686 wass=4.3 mc=1.00 elapsed=0.6s
+  L2s  4: pm=0.2677 leak=0.2656 wass=3.2 mc=1.00 elapsed=0.6s
+  L3s  4: pm=0.2716 leak=0.2705 wass=2.7 mc=1.00 elapsed=0.6s
+  L4s  4: pm=0.2403 leak=0.2363 wass=3.7 mc=1.00 elapsed=0.6s
+  → pm=0.2571±0.0150  wass=3.5±0.5  mc=1.00
+
+--- NegCFG lam=0.1 ---
+  L0s  4: pm=0.1766 leak=0.1768 wass=2.3 mc=1.00 elapsed=0.6s
+  L1s  4: pm=0.2051 leak=0.2051 wass=3.2 mc=1.00 elapsed=0.6s
+  L2s  4: pm=0.2090 leak=0.2080 wass=2.8 mc=1.00 elapsed=0.6s
+  L3s  4: pm=0.2085 leak=0.2061 wass=2.0 mc=1.00 elapsed=0.6s
+  L4s  4: pm=0.1676 leak=0.1680 wass=2.9 mc=1.00 elapsed=0.6s
+  → pm=0.1933±0.0176  wass=2.6±0.4  mc=1.00
+
+--- NegCFG lam=0.2 ---
+  L0s  4: pm=0.1444 leak=0.1445 wass=2.9 mc=1.00 elapsed=0.6s
+  L1s  4: pm=0.1514 leak=0.1514 wass=3.6 mc=1.00 elapsed=0.6s
+  L2s  4: pm=0.1557 leak=0.1523 wass=4.5 mc=1.00 elapsed=0.6s
+  L3s  4: pm=0.1719 leak=0.1738 wass=2.5 mc=1.00 elapsed=0.6s
+  L4s  4: pm=0.1291 leak=0.1279 wass=4.4 mc=1.00 elapsed=0.7s
+  → pm=0.1505±0.0140  wass=3.6±0.8  mc=1.00
+
+--- NegCFG lam=0.5 ---
+  L0s  4: pm=0.0665 leak=0.0664 wass=8.3 mc=1.00 elapsed=0.6s
+  L1s  4: pm=0.0723 leak=0.0723 wass=9.3 mc=1.00 elapsed=0.6s
+  L2s  4: pm=0.0749 leak=0.0771 wass=12.7 mc=1.00 elapsed=0.6s
+  L3s  4: pm=0.0761 leak=0.0742 wass=6.5 mc=1.00 elapsed=0.6s
+  L4s  4: pm=0.0574 leak=0.0566 wass=12.8 mc=1.00 elapsed=0.6s
+  → pm=0.0694±0.0069  wass=9.9±2.5  mc=1.00
+
+--- NegCFG lam=0.7 ---
+  L0s  4: pm=0.0409 leak=0.0410 wass=11.9 mc=0.89 elapsed=0.6s
+  L1s  4: pm=0.0488 leak=0.0488 wass=13.2 mc=0.78 elapsed=0.6s
+  L2s  4: pm=0.0458 leak=0.0459 wass=18.5 mc=0.89 elapsed=0.6s
+  L3s  4: pm=0.0485 leak=0.0498 wass=8.9 mc=1.00 elapsed=0.6s
+  L4s  4: pm=0.0349 leak=0.0352 wass=18.6 mc=0.89 elapsed=0.6s
+  → pm=0.0438±0.0053  wass=14.2±3.8  mc=0.78
+
+--- NegCFG lam=1.0 ---
+  L0s  4: pm=0.0205 leak=0.0205 wass=16.9 mc=0.78 elapsed=0.6s
+  L1s  4: pm=0.0225 leak=0.0225 wass=18.9 mc=0.67 elapsed=0.6s
+  L2s  4: pm=0.0208 leak=0.0205 wass=29.0 mc=0.89 elapsed=0.6s
+  L3s  4: pm=0.0198 leak=0.0195 wass=11.9 mc=1.00 elapsed=0.6s
+  L4s  4: pm=0.0146 leak=0.0146 wass=26.4 mc=0.44 elapsed=0.6s
+  → pm=0.0197±0.0026  wass=20.6±6.3  mc=0.44
+
+--- NegCFG lam=1.5 ---
+  L0s  4: pm=0.0096 leak=0.0098 wass=26.0 mc=0.44 elapsed=0.6s
+  L1s  4: pm=0.0078 leak=0.0078 wass=26.9 mc=0.56 elapsed=0.6s
+  L2s  4: pm=0.0030 leak=0.0029 wass=66.4 mc=0.33 elapsed=0.6s
+  L3s  4: pm=0.0054 leak=0.0049 wass=15.9 mc=0.89 elapsed=0.7s
+  L4s  4: pm=0.0039 leak=0.0039 wass=38.0 mc=0.44 elapsed=0.8s
+  → pm=0.0059±0.0025  wass=34.6±17.4  mc=0.33
+
+--- NegCFG lam=2.0 ---
+  L0s  4: pm=0.0020 leak=0.0020 wass=34.4 mc=0.44 elapsed=0.6s
+  L1s  4: pm=0.0020 leak=0.0020 wass=34.2 mc=0.00 elapsed=0.6s
+  L2s  4: pm=0.0019 leak=0.0020 wass=117.3 mc=0.22 elapsed=0.6s
+  L3s  4: pm=0.0029 leak=0.0029 wass=19.2 mc=0.44 elapsed=0.6s
+  L4s  4: pm=0.0000 leak=0.0000 wass=48.7 mc=0.11 elapsed=0.6s
+  → pm=0.0018±0.0010  wass=50.8±34.5  mc=0.00
+
+--- NegCFG lam=3.0 ---
+  L0s  4: pm=0.0000 leak=0.0000 wass=50.6 mc=0.00 elapsed=0.6s
+  L1s  4: pm=0.0000 leak=0.0000 wass=49.2 mc=0.00 elapsed=0.6s
+  L2s  4: pm=0.0000 leak=0.0000 wass=313.5 mc=0.11 elapsed=0.6s
+  L3s  4: pm=0.0009 leak=0.0010 wass=25.5 mc=0.11 elapsed=0.6s
+  L4s  4: pm=0.0000 leak=0.0000 wass=69.1 mc=0.22 elapsed=0.6s
+  → pm=0.0002±0.0004  wass=101.6±106.9  mc=0.00
+
+====================================================================================================
+TRADEOFF TABLE: NegCFG lambda sweep
+====================================================================================================
+  Method               |  post_mean     ± |    leak |       wass       ± |    mc
+  ---------------------------------------------------------------------------
+  Oracle               |     0.0125       |  0.0086 |        1.5         |  1.00
+  ---------------------------------------------------------------------------
+  NegCFG lam=0.0       |     0.2571 0.015 |  0.2553 |        3.5     0.5 |  1.00
+  NegCFG lam=0.1       |     0.1933 0.018 |  0.1928 |        2.6     0.4 |  1.00
+  NegCFG lam=0.2       |     0.1505 0.014 |  0.1500 |        3.6     0.8 |  1.00
+  NegCFG lam=0.5       |     0.0694 0.007 |  0.0693 |        9.9     2.5 |  1.00
+  NegCFG lam=0.7       |     0.0438 0.005 |  0.0441 |       14.2     3.8 |  0.78
+  NegCFG lam=1.0       |     0.0197 0.003 |  0.0195 |       20.6     6.3 |  0.44
+  NegCFG lam=1.5       |     0.0059 0.002 |  0.0059 |       34.6    17.4 |  0.33
+  NegCFG lam=2.0       |     0.0018 0.001 |  0.0018 |       50.8    34.5 |  0.00
+  NegCFG lam=3.0       |     0.0002 0.000 |  0.0002 |      101.6   106.9 |  0.00
+
+  Higher lambda → lower post_mean (better avoidance) but higher wasserstein (worse distribution)
+  Oracle achieves both low post_mean AND low wasserstein — NegCFG cannot reach this.
+
+Done

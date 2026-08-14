@@ -1,0 +1,30 @@
+{
+  "config": {
+    "group": "vehicles",
+    "group_classes": [
+      "plane",
+      "car",
+      "ship",
+      "truck"
+    ]
+  },
+  "M": 128,
+  "n_seeds": 80,
+  "total_samples": 10240,
+  "n_target": 2482,
+  "target_rate": 0.2423828125,
+  "raw_mean": 0.062890625,
+  "raw_std": 0.028728868762807648,
+  "uniq_mean": 99.4875,
+  "uniq_std": 20.437094797206377,
+  "kl": 0.29423301875311497,
+  "fid": 19.16762770115639,
+  "mpd": 0.21341563087332235,
+  "group": "vehicles",
+  "group_classes": [
+    "plane",
+    "car",
+    "ship",
+    "truck"
+  ]
+}

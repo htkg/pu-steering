@@ -1,0 +1,174 @@
+====================================================================================================
+SafeDenoiser Tradeoff Sweep
+Etas: [10, 20, 30, 50, 75, 100, 150, 200]
+Config f GMM (radius=10, sharp), T=100, M=1024
+5 layouts x 3 seeds = 15 trials
+====================================================================================================
+
+--- Oracle ---
+  pm=0.0120  leak=0.0077  wass=1.5
+
+--- SD eta=10 ---
+  L0s  0: pm=0.2147 leak=0.2139 wass=2.5 mc=1.00 elapsed=0.9s
+  L0s  1: pm=0.2290 leak=0.2285 wass=3.1 mc=1.00 elapsed=1.0s
+  L0s  2: pm=0.2285 leak=0.2285 wass=2.9 mc=1.00 elapsed=1.0s
+  L1s  0: pm=0.2078 leak=0.2080 wass=3.1 mc=1.00 elapsed=0.9s
+  L1s  1: pm=0.1938 leak=0.1934 wass=3.0 mc=1.00 elapsed=0.9s
+  L1s  2: pm=0.2091 leak=0.2090 wass=3.1 mc=1.00 elapsed=0.9s
+  L2s  0: pm=0.2014 leak=0.2012 wass=2.3 mc=1.00 elapsed=0.9s
+  L2s  1: pm=0.2102 leak=0.2090 wass=2.4 mc=1.00 elapsed=0.9s
+  L2s  2: pm=0.2069 leak=0.2070 wass=2.7 mc=1.00 elapsed=0.9s
+  L3s  0: pm=0.2131 leak=0.2129 wass=2.1 mc=1.00 elapsed=0.9s
+  L3s  1: pm=0.2272 leak=0.2256 wass=2.4 mc=1.00 elapsed=0.9s
+  L3s  2: pm=0.2259 leak=0.2266 wass=2.3 mc=1.00 elapsed=0.9s
+  L4s  0: pm=0.1977 leak=0.1924 wass=3.4 mc=1.00 elapsed=0.9s
+  L4s  1: pm=0.1929 leak=0.1895 wass=3.0 mc=1.00 elapsed=0.9s
+  L4s  2: pm=0.1811 leak=0.1807 wass=2.9 mc=1.00 elapsed=0.9s
+  → pm=0.2093±0.0139  wass=2.7±0.4  mc=1.00
+
+--- SD eta=20 ---
+  L0s  0: pm=0.1885 leak=0.1875 wass=2.2 mc=1.00 elapsed=0.9s
+  L0s  1: pm=0.1879 leak=0.1885 wass=2.5 mc=1.00 elapsed=0.9s
+  L0s  2: pm=0.2003 leak=0.1992 wass=2.4 mc=1.00 elapsed=0.9s
+  L1s  0: pm=0.1563 leak=0.1562 wass=2.5 mc=1.00 elapsed=0.9s
+  L1s  1: pm=0.1716 leak=0.1719 wass=2.3 mc=1.00 elapsed=0.9s
+  L1s  2: pm=0.1623 leak=0.1621 wass=2.3 mc=1.00 elapsed=0.9s
+  L2s  0: pm=0.1667 leak=0.1660 wass=1.8 mc=1.00 elapsed=0.9s
+  L2s  1: pm=0.1655 leak=0.1641 wass=1.9 mc=1.00 elapsed=0.9s
+  L2s  2: pm=0.1714 leak=0.1699 wass=2.0 mc=1.00 elapsed=0.9s
+  L3s  0: pm=0.1927 leak=0.1875 wass=2.0 mc=1.00 elapsed=0.9s
+  L3s  1: pm=0.2020 leak=0.1973 wass=2.1 mc=1.00 elapsed=0.9s
+  L3s  2: pm=0.2067 leak=0.2041 wass=1.9 mc=1.00 elapsed=0.9s
+  L4s  0: pm=0.1468 leak=0.1475 wass=2.4 mc=1.00 elapsed=0.9s
+  L4s  1: pm=0.1517 leak=0.1484 wass=2.1 mc=1.00 elapsed=0.9s
+  L4s  2: pm=0.1383 leak=0.1357 wass=2.0 mc=1.00 elapsed=0.9s
+  → pm=0.1739±0.0207  wass=2.2±0.2  mc=1.00
+
+--- SD eta=30 ---
+  L0s  0: pm=0.1599 leak=0.1602 wass=2.5 mc=1.00 elapsed=0.9s
+  L0s  1: pm=0.1616 leak=0.1621 wass=2.3 mc=1.00 elapsed=0.9s
+  L0s  2: pm=0.1709 leak=0.1699 wass=2.3 mc=1.00 elapsed=0.9s
+  L1s  0: pm=0.1231 leak=0.1230 wass=2.6 mc=1.00 elapsed=0.9s
+  L1s  1: pm=0.1291 leak=0.1289 wass=2.5 mc=1.00 elapsed=0.9s
+  L1s  2: pm=0.1348 leak=0.1348 wass=2.6 mc=1.00 elapsed=0.9s
+  L2s  0: pm=0.1288 leak=0.1270 wass=2.1 mc=1.00 elapsed=0.9s
+  L2s  1: pm=0.1468 leak=0.1455 wass=2.3 mc=1.00 elapsed=0.9s
+  L2s  2: pm=0.1457 leak=0.1484 wass=1.8 mc=1.00 elapsed=0.9s
+  L3s  0: pm=0.1719 leak=0.1689 wass=1.9 mc=1.00 elapsed=0.9s
+  L3s  1: pm=0.1803 leak=0.1719 wass=1.7 mc=1.00 elapsed=0.9s
+  L3s  2: pm=0.1751 leak=0.1719 wass=1.7 mc=1.00 elapsed=0.9s
+  L4s  0: pm=0.1127 leak=0.1113 wass=2.2 mc=1.00 elapsed=0.9s
+  L4s  1: pm=0.1183 leak=0.1162 wass=2.0 mc=1.00 elapsed=0.9s
+  L4s  2: pm=0.1117 leak=0.1113 wass=2.2 mc=1.00 elapsed=0.9s
+  → pm=0.1447±0.0231  wass=2.2±0.3  mc=1.00
+
+--- SD eta=50 ---
+  L0s  0: pm=0.1096 leak=0.1094 wass=4.6 mc=1.00 elapsed=0.9s
+  L0s  1: pm=0.1235 leak=0.1221 wass=3.9 mc=1.00 elapsed=0.9s
+  L0s  2: pm=0.1274 leak=0.1270 wass=4.3 mc=1.00 elapsed=0.9s
+  L1s  0: pm=0.0879 leak=0.0879 wass=4.2 mc=1.00 elapsed=0.9s
+  L1s  1: pm=0.0703 leak=0.0703 wass=4.4 mc=1.00 elapsed=0.9s
+  L1s  2: pm=0.0726 leak=0.0723 wass=4.4 mc=1.00 elapsed=0.9s
+  L2s  0: pm=0.0927 leak=0.0898 wass=3.8 mc=1.00 elapsed=0.9s
+  L2s  1: pm=0.0831 leak=0.0830 wass=4.0 mc=1.00 elapsed=0.9s
+  L2s  2: pm=0.1001 leak=0.0996 wass=3.3 mc=1.00 elapsed=0.9s
+  L3s  0: pm=0.1333 leak=0.1279 wass=2.3 mc=1.00 elapsed=0.9s
+  L3s  1: pm=0.1288 leak=0.1221 wass=1.6 mc=1.00 elapsed=0.9s
+  L3s  2: pm=0.1234 leak=0.1172 wass=2.2 mc=1.00 elapsed=0.9s
+  L4s  0: pm=0.0696 leak=0.0684 wass=3.2 mc=1.00 elapsed=0.9s
+  L4s  1: pm=0.0579 leak=0.0586 wass=3.4 mc=1.00 elapsed=0.9s
+  L4s  2: pm=0.0575 leak=0.0566 wass=3.8 mc=1.00 elapsed=0.9s
+  → pm=0.0959±0.0261  wass=3.6±0.9  mc=1.00
+
+--- SD eta=75 ---
+  L0s  0: pm=0.0772 leak=0.0762 wass=6.2 mc=1.00 elapsed=0.9s
+  L0s  1: pm=0.0840 leak=0.0840 wass=6.1 mc=1.00 elapsed=0.9s
+  L0s  2: pm=0.0876 leak=0.0879 wass=6.2 mc=1.00 elapsed=0.9s
+  L1s  0: pm=0.0341 leak=0.0342 wass=6.0 mc=1.00 elapsed=0.9s
+  L1s  1: pm=0.0334 leak=0.0332 wass=6.1 mc=1.00 elapsed=0.9s
+  L1s  2: pm=0.0410 leak=0.0410 wass=6.0 mc=1.00 elapsed=0.9s
+  L2s  0: pm=0.0571 leak=0.0557 wass=5.5 mc=1.00 elapsed=0.9s
+  L2s  1: pm=0.0385 leak=0.0371 wass=5.7 mc=1.00 elapsed=0.9s
+  L2s  2: pm=0.0560 leak=0.0547 wass=5.1 mc=1.00 elapsed=0.9s
+  L3s  0: pm=0.0835 leak=0.0791 wass=3.3 mc=1.00 elapsed=0.9s
+  L3s  1: pm=0.0948 leak=0.0928 wass=2.3 mc=1.00 elapsed=0.9s
+  L3s  2: pm=0.0907 leak=0.0879 wass=3.2 mc=1.00 elapsed=0.9s
+  L4s  0: pm=0.0324 leak=0.0322 wass=4.7 mc=1.00 elapsed=0.9s
+  L4s  1: pm=0.0302 leak=0.0293 wass=4.9 mc=1.00 elapsed=0.9s
+  L4s  2: pm=0.0305 leak=0.0303 wass=5.0 mc=1.00 elapsed=0.9s
+  → pm=0.0581±0.0245  wass=5.1±1.2  mc=1.00
+
+--- SD eta=100 ---
+  L0s  0: pm=0.0432 leak=0.0430 wass=7.6 mc=1.00 elapsed=0.9s
+  L0s  1: pm=0.0494 leak=0.0498 wass=7.3 mc=1.00 elapsed=0.9s
+  L0s  2: pm=0.0475 leak=0.0469 wass=7.8 mc=1.00 elapsed=0.9s
+  L1s  0: pm=0.0246 leak=0.0244 wass=7.0 mc=1.00 elapsed=0.9s
+  L1s  1: pm=0.0166 leak=0.0166 wass=7.2 mc=1.00 elapsed=0.9s
+  L1s  2: pm=0.0217 leak=0.0215 wass=7.0 mc=1.00 elapsed=0.9s
+  L2s  0: pm=0.0289 leak=0.0283 wass=6.6 mc=1.00 elapsed=0.9s
+  L2s  1: pm=0.0294 leak=0.0293 wass=6.7 mc=1.00 elapsed=0.9s
+  L2s  2: pm=0.0315 leak=0.0312 wass=6.2 mc=1.00 elapsed=0.9s
+  L3s  0: pm=0.0634 leak=0.0625 wass=4.4 mc=1.00 elapsed=0.9s
+  L3s  1: pm=0.0721 leak=0.0664 wass=3.2 mc=1.00 elapsed=0.9s
+  L3s  2: pm=0.0683 leak=0.0684 wass=4.1 mc=1.00 elapsed=0.9s
+  L4s  0: pm=0.0226 leak=0.0225 wass=5.7 mc=1.00 elapsed=0.9s
+  L4s  1: pm=0.0184 leak=0.0176 wass=5.7 mc=1.00 elapsed=0.9s
+  L4s  2: pm=0.0187 leak=0.0176 wass=5.8 mc=1.00 elapsed=0.9s
+  → pm=0.0371±0.0184  wass=6.2±1.3  mc=1.00
+
+--- SD eta=150 ---
+  L0s  0: pm=0.0174 leak=0.0176 wass=9.5 mc=1.00 elapsed=0.9s
+  L0s  1: pm=0.0178 leak=0.0176 wass=9.2 mc=1.00 elapsed=0.9s
+  L0s  2: pm=0.0188 leak=0.0186 wass=9.3 mc=1.00 elapsed=0.9s
+  L1s  0: pm=0.0039 leak=0.0039 wass=8.0 mc=1.00 elapsed=0.9s
+  L1s  1: pm=0.0050 leak=0.0049 wass=8.1 mc=1.00 elapsed=0.9s
+  L1s  2: pm=0.0052 leak=0.0049 wass=8.1 mc=1.00 elapsed=0.9s
+  L2s  0: pm=0.0105 leak=0.0107 wass=7.9 mc=1.00 elapsed=0.9s
+  L2s  1: pm=0.0107 leak=0.0098 wass=7.9 mc=1.00 elapsed=0.9s
+  L2s  2: pm=0.0084 leak=0.0078 wass=7.6 mc=1.00 elapsed=0.9s
+  L3s  0: pm=0.0268 leak=0.0244 wass=6.3 mc=1.00 elapsed=0.9s
+  L3s  1: pm=0.0269 leak=0.0244 wass=5.2 mc=1.00 elapsed=0.9s
+  L3s  2: pm=0.0328 leak=0.0322 wass=5.8 mc=1.00 elapsed=1.0s
+  L4s  0: pm=0.0060 leak=0.0059 wass=6.6 mc=1.00 elapsed=1.0s
+  L4s  1: pm=0.0064 leak=0.0068 wass=6.5 mc=1.00 elapsed=1.0s
+  L4s  2: pm=0.0089 leak=0.0088 wass=6.6 mc=1.00 elapsed=1.0s
+  → pm=0.0137±0.0089  wass=7.5±1.3  mc=1.00
+
+--- SD eta=200 ---
+  L0s  0: pm=0.0098 leak=0.0098 wass=10.3 mc=1.00 elapsed=0.9s
+  L0s  1: pm=0.0059 leak=0.0059 wass=10.2 mc=1.00 elapsed=1.0s
+  L0s  2: pm=0.0108 leak=0.0107 wass=10.2 mc=1.00 elapsed=1.0s
+  L1s  0: pm=0.0039 leak=0.0039 wass=8.5 mc=1.00 elapsed=1.0s
+  L1s  1: pm=0.0029 leak=0.0029 wass=8.5 mc=1.00 elapsed=1.0s
+  L1s  2: pm=0.0049 leak=0.0049 wass=8.7 mc=1.00 elapsed=1.0s
+  L2s  0: pm=0.0035 leak=0.0029 wass=8.6 mc=1.00 elapsed=1.0s
+  L2s  1: pm=0.0038 leak=0.0029 wass=8.5 mc=1.00 elapsed=1.0s
+  L2s  2: pm=0.0067 leak=0.0068 wass=8.4 mc=1.00 elapsed=1.0s
+  L3s  0: pm=0.0114 leak=0.0098 wass=7.4 mc=1.00 elapsed=0.9s
+  L3s  1: pm=0.0150 leak=0.0146 wass=6.4 mc=1.00 elapsed=0.9s
+  L3s  2: pm=0.0138 leak=0.0127 wass=7.1 mc=1.00 elapsed=0.9s
+  L4s  0: pm=0.0030 leak=0.0029 wass=7.0 mc=1.00 elapsed=1.0s
+  L4s  1: pm=0.0030 leak=0.0029 wass=7.0 mc=1.00 elapsed=1.0s
+  L4s  2: pm=0.0030 leak=0.0029 wass=7.0 mc=1.00 elapsed=1.0s
+  → pm=0.0068±0.0041  wass=8.3±1.2  mc=1.00
+
+====================================================================================================
+TRADEOFF TABLE: SafeDenoiser eta sweep
+====================================================================================================
+  Method               |  post_mean     ± |    leak |       wass       ± |    mc
+  ---------------------------------------------------------------------------
+  Oracle               |     0.0120       |  0.0077 |        1.5         |  1.00
+  ---------------------------------------------------------------------------
+  SD eta=10            |     0.2093 0.014 |  0.2084 |        2.7     0.4 |  1.00
+  SD eta=20            |     0.1739 0.021 |  0.1724 |        2.2     0.2 |  1.00
+  SD eta=30            |     0.1447 0.023 |  0.1434 |        2.2     0.3 |  1.00
+  SD eta=50            |     0.0959 0.026 |  0.0941 |        3.6     0.9 |  1.00
+  SD eta=75            |     0.0581 0.025 |  0.0570 |        5.1     1.2 |  1.00
+  SD eta=100           |     0.0371 0.018 |  0.0364 |        6.2     1.3 |  1.00
+  SD eta=150           |     0.0137 0.009 |  0.0132 |        7.5     1.3 |  1.00
+  SD eta=200           |     0.0068 0.004 |  0.0064 |        8.3     1.2 |  1.00
+
+  Higher eta → lower post_mean (better avoidance) but higher wasserstein (worse distribution)
+  Oracle achieves both low post_mean AND low wasserstein — SafeDenoiser cannot reach this.
+
+Done

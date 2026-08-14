@@ -1,0 +1,6 @@
+__pycache__/
+.deps/
+*.py[cod]
+*.sif
+*.pt
+.DS_Store

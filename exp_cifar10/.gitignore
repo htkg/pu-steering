@@ -1,0 +1,12 @@
+__pycache__
+.venv
+packages
+.vscode
+
+data
+*.pt
+*.npz
+*.json
+!summary_short.json
+
+jobs

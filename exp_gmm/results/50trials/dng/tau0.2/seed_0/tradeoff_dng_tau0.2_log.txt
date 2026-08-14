@@ -1,0 +1,109 @@
+====================================================================================================
+DNG Tradeoff Sweep — tau=0.2
+Lambda0s: [0.5, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 5.0, 10.0, 20.0]
+Config f GMM (radius=10, sharp), T=100, M=1024
+5 layouts x 1 seeds = 5 trials
+====================================================================================================
+
+--- Oracle ---
+  pm=0.0106  wass=1.6
+
+--- DNG lambda0=0.5 tau=0.2 ---
+  L0s  0: pm=0.1584 wass=2.1 elapsed=0.6s
+  L1s  0: pm=0.1602 wass=2.6 elapsed=0.6s
+  L2s  0: pm=0.1493 wass=1.8 elapsed=0.6s
+  L3s  0: pm=0.1678 wass=1.7 elapsed=0.6s
+  L4s  0: pm=0.1583 wass=2.9 elapsed=0.6s
+  → pm=0.1588±0.0059  wass=2.2±0.5
+
+--- DNG lambda0=1.0 tau=0.2 ---
+  L0s  0: pm=0.1036 wass=2.5 elapsed=0.6s
+  L1s  0: pm=0.1113 wass=2.7 elapsed=0.6s
+  L2s  0: pm=0.1032 wass=2.2 elapsed=0.6s
+  L3s  0: pm=0.1122 wass=1.9 elapsed=0.6s
+  L4s  0: pm=0.0992 wass=2.5 elapsed=0.6s
+  → pm=0.1059±0.0050  wass=2.4±0.3
+
+--- DNG lambda0=1.2 tau=0.2 ---
+  L0s  0: pm=0.0869 wass=3.2 elapsed=0.6s
+  L1s  0: pm=0.0986 wass=3.0 elapsed=0.6s
+  L2s  0: pm=0.0779 wass=2.9 elapsed=0.6s
+  L3s  0: pm=0.0918 wass=2.3 elapsed=0.6s
+  L4s  0: pm=0.0769 wass=2.9 elapsed=0.6s
+  → pm=0.0864±0.0083  wass=2.9±0.3
+
+--- DNG lambda0=1.4 tau=0.2 ---
+  L0s  0: pm=0.0725 wass=3.8 elapsed=0.6s
+  L1s  0: pm=0.0781 wass=3.6 elapsed=0.6s
+  L2s  0: pm=0.0627 wass=3.5 elapsed=0.6s
+  L3s  0: pm=0.0769 wass=2.6 elapsed=0.6s
+  L4s  0: pm=0.0634 wass=3.4 elapsed=0.6s
+  → pm=0.0707±0.0065  wass=3.4±0.4
+
+--- DNG lambda0=1.6 tau=0.2 ---
+  L0s  0: pm=0.0520 wass=4.3 elapsed=0.6s
+  L1s  0: pm=0.0615 wass=4.2 elapsed=0.6s
+  L2s  0: pm=0.0485 wass=4.1 elapsed=0.6s
+  L3s  0: pm=0.0644 wass=2.9 elapsed=0.6s
+  L4s  0: pm=0.0527 wass=3.9 elapsed=0.6s
+  → pm=0.0558±0.0061  wass=3.9±0.5
+
+--- DNG lambda0=1.8 tau=0.2 ---
+  L0s  0: pm=0.0410 wass=4.8 elapsed=0.6s
+  L1s  0: pm=0.0469 wass=4.7 elapsed=0.6s
+  L2s  0: pm=0.0447 wass=4.7 elapsed=0.6s
+  L3s  0: pm=0.0502 wass=3.4 elapsed=0.6s
+  L4s  0: pm=0.0477 wass=4.3 elapsed=0.6s
+  → pm=0.0461±0.0031  wass=4.4±0.5
+
+--- DNG lambda0=2.0 tau=0.2 ---
+  L0s  0: pm=0.0403 wass=5.3 elapsed=0.6s
+  L1s  0: pm=0.0410 wass=5.1 elapsed=0.6s
+  L2s  0: pm=0.0352 wass=5.2 elapsed=0.6s
+  L3s  0: pm=0.0427 wass=3.7 elapsed=0.6s
+  L4s  0: pm=0.0398 wass=4.8 elapsed=0.6s
+  → pm=0.0398±0.0025  wass=4.8±0.6
+
+--- DNG lambda0=5.0 tau=0.2 ---
+  L0s  0: pm=0.0010 wass=9.9 elapsed=0.6s
+  L1s  0: pm=0.0029 wass=9.6 elapsed=0.6s
+  L2s  0: pm=0.0030 wass=10.8 elapsed=0.6s
+  L3s  0: pm=0.0030 wass=7.5 elapsed=0.6s
+  L4s  0: pm=0.0020 wass=9.9 elapsed=0.6s
+  → pm=0.0024±0.0008  wass=9.5±1.1
+
+--- DNG lambda0=10.0 tau=0.2 ---
+  L0s  0: pm=0.0000 wass=13.9 elapsed=0.6s
+  L1s  0: pm=0.0000 wass=12.2 elapsed=0.6s
+  L2s  0: pm=0.0000 wass=15.1 elapsed=0.6s
+  L3s  0: pm=0.0000 wass=10.2 elapsed=0.6s
+  L4s  0: pm=0.0000 wass=13.5 elapsed=0.7s
+  → pm=0.0000±0.0000  wass=13.0±1.7
+
+--- DNG lambda0=20.0 tau=0.2 ---
+  L0s  0: pm=0.0000 wass=17.0 elapsed=0.7s
+  L1s  0: pm=0.0000 wass=14.1 elapsed=0.7s
+  L2s  0: pm=0.0000 wass=18.1 elapsed=0.7s
+  L3s  0: pm=0.0000 wass=13.0 elapsed=0.7s
+  L4s  0: pm=0.0000 wass=16.9 elapsed=0.6s
+  → pm=0.0000±0.0000  wass=15.8±1.9
+
+====================================================================================================
+TRADEOFF TABLE: DNG lambda0 sweep (tau=0.2)
+====================================================================================================
+  Method                    |  post_mean      ± |       wass        ±
+  ----------------------------------------------------------------------
+  Oracle                    |     0.0106        |        1.6
+  ----------------------------------------------------------------------
+  DNG lam0=0.5              |     0.1588 0.0059 |        2.2      0.5
+  DNG lam0=1.0              |     0.1059 0.0050 |        2.4      0.3
+  DNG lam0=1.2              |     0.0864 0.0083 |        2.9      0.3
+  DNG lam0=1.4              |     0.0707 0.0065 |        3.4      0.4
+  DNG lam0=1.6              |     0.0558 0.0061 |        3.9      0.5
+  DNG lam0=1.8              |     0.0461 0.0031 |        4.4      0.5
+  DNG lam0=2.0              |     0.0398 0.0025 |        4.8      0.6
+  DNG lam0=5.0              |     0.0024 0.0008 |        9.5      1.1
+  DNG lam0=10.0             |     0.0000 0.0000 |       13.0      1.7
+  DNG lam0=20.0             |     0.0000 0.0000 |       15.8      1.9
+
+Done

@@ -1,0 +1,39 @@
+==============================================================================================================
+Case 2: Reference-based — Resample ON — Proposal: grad
+Grad ON: cp=0.25, cos lam_max=2.0, gs=20, rs_stop=20, systematic_sorted
+SafeDenoiser baselines: eta=[30.0, 50.0]
+Config f GMM (radius=10, sharp), T=100, M=1024
+5 layouts x 3 seeds = 15 trials
+==============================================================================================================
+  L0s  0: Orc=0.0029 SD30.0=0.1599 SD50.0=0.1096 | Grad: raw=0.0874 w=0.0752 mc=1.00 ESS=1008 rs=3 elapsed=19.0s
+  L0s  1: Orc=0.0046 SD30.0=0.1616 SD50.0=0.1235 | Grad: raw=0.0936 w=0.0875 mc=1.00 ESS=986 rs=2 elapsed=14.9s
+  L0s  2: Orc=0.0018 SD30.0=0.1709 SD50.0=0.1274 | Grad: raw=0.0926 w=0.0918 mc=1.00 ESS=979 rs=2 elapsed=14.6s
+  L1s  0: Orc=0.0001 SD30.0=0.1231 SD50.0=0.0879 | Grad: raw=0.0635 w=0.0569 mc=1.00 ESS=1021 rs=3 elapsed=15.2s
+  L1s  1: Orc=0.0009 SD30.0=0.1291 SD50.0=0.0703 | Grad: raw=0.0723 w=0.0643 mc=1.00 ESS=1021 rs=4 elapsed=15.0s
+  L1s  2: Orc=0.0002 SD30.0=0.1348 SD50.0=0.0726 | Grad: raw=0.0814 w=0.0683 mc=1.00 ESS=996 rs=3 elapsed=14.8s
+  L2s  0: Orc=0.0179 SD30.0=0.1288 SD50.0=0.0927 | Grad: raw=0.1222 w=0.1085 mc=1.00 ESS=1017 rs=5 elapsed=15.0s
+  L2s  1: Orc=0.0259 SD30.0=0.1468 SD50.0=0.0831 | Grad: raw=0.1324 w=0.1226 mc=1.00 ESS=1021 rs=3 elapsed=14.7s
+  L2s  2: Orc=0.0210 SD30.0=0.1457 SD50.0=0.1001 | Grad: raw=0.1230 w=0.1153 mc=1.00 ESS=1011 rs=2 elapsed=15.0s
+  L3s  0: Orc=0.0218 SD30.0=0.1719 SD50.0=0.1333 | Grad: raw=0.0730 w=0.0554 mc=1.00 ESS=1015 rs=4 elapsed=14.8s
+  L3s  1: Orc=0.0311 SD30.0=0.1803 SD50.0=0.1288 | Grad: raw=0.1147 w=0.1086 mc=1.00 ESS=1021 rs=3 elapsed=14.7s
+  L3s  2: Orc=0.0248 SD30.0=0.1751 SD50.0=0.1234 | Grad: raw=0.0867 w=0.0711 mc=1.00 ESS=993 rs=4 elapsed=14.6s
+  L4s  0: Orc=0.0103 SD30.0=0.1127 SD50.0=0.0696 | Grad: raw=0.0892 w=0.0825 mc=1.00 ESS=993 rs=3 elapsed=14.7s
+  L4s  1: Orc=0.0095 SD30.0=0.1183 SD50.0=0.0579 | Grad: raw=0.0776 w=0.0647 mc=1.00 ESS=993 rs=3 elapsed=14.8s
+  L4s  2: Orc=0.0068 SD30.0=0.1117 SD50.0=0.0575 | Grad: raw=0.1020 w=0.0913 mc=1.00 ESS=1008 rs=4 elapsed=14.9s
+
+==============================================================================================================
+SUMMARY: Resample ON — Proposal: grad (15 trials)
+==============================================================================================================
+  Oracle:   pm=0.0120+-0.0104
+  SD(eta=30.0): pm=0.1447+-0.0231 wass=2.2+-0.3
+  SD(eta=50.0): pm=0.0959+-0.0261 wass=3.6+-0.9
+
+  Grad (raw): pm=0.0941+-0.0200 wass=1.9+-0.4
+  Grad (w):   pm=0.0843+-0.0210 wass=2.0+-0.5
+  mc=1.000 ESS=1005+-14 rs=3.2
+
+  Win rates vs SD(eta=30.0):
+    raw_pm: 15/15
+    w_pm:   15/15
+
+Done

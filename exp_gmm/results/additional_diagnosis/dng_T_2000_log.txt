@@ -1,0 +1,67 @@
+====================================================================================================
+DNG T ablation — 2026-07-30 18:00:07
+Ts: [2000] (current=100), DNG lambda0=1.0 tau=1.0 pmin=1e-2 lam_max=20
+Ring GMM (radius=10), M=1024, 5 layouts x 10 seeds = 50 trials
+====================================================================================================
+
+--- T=2000 ---
+  L0s  0: DNG pm=0.0088 lk=0.008 wass=1.6 elapsed=12.5s
+  L0s  1: DNG pm=0.0117 lk=0.012 wass=1.2 elapsed=12.5s
+  L0s  2: DNG pm=0.0141 lk=0.013 wass=1.3 elapsed=12.5s
+  L0s  3: DNG pm=0.0156 lk=0.015 wass=1.5 elapsed=12.5s
+  L0s  4: DNG pm=0.0167 lk=0.016 wass=1.5 elapsed=12.5s
+  L0s  5: DNG pm=0.0123 lk=0.012 wass=1.5 elapsed=12.5s
+  L0s  6: DNG pm=0.0117 lk=0.012 wass=1.1 elapsed=12.5s
+  L0s  7: DNG pm=0.0158 lk=0.015 wass=2.4 elapsed=12.5s
+  L0s  8: DNG pm=0.0131 lk=0.012 wass=1.7 elapsed=12.5s
+  L0s  9: DNG pm=0.0114 lk=0.011 wass=1.9 elapsed=12.5s
+  L1s  0: DNG pm=0.0070 lk=0.007 wass=1.8 elapsed=12.5s
+  L1s  1: DNG pm=0.0098 lk=0.010 wass=1.3 elapsed=12.5s
+  L1s  2: DNG pm=0.0187 lk=0.019 wass=1.9 elapsed=12.5s
+  L1s  3: DNG pm=0.0088 lk=0.009 wass=1.2 elapsed=12.5s
+  L1s  4: DNG pm=0.0108 lk=0.011 wass=1.5 elapsed=12.5s
+  L1s  5: DNG pm=0.0127 lk=0.013 wass=1.6 elapsed=12.5s
+  L1s  6: DNG pm=0.0069 lk=0.007 wass=1.5 elapsed=12.5s
+  L1s  7: DNG pm=0.0117 lk=0.012 wass=1.6 elapsed=12.5s
+  L1s  8: DNG pm=0.0186 lk=0.019 wass=1.3 elapsed=12.5s
+  L1s  9: DNG pm=0.0059 lk=0.006 wass=1.4 elapsed=12.5s
+  L2s  0: DNG pm=0.0248 lk=0.021 wass=1.3 elapsed=12.4s
+  L2s  1: DNG pm=0.0164 lk=0.013 wass=1.3 elapsed=12.4s
+  L2s  2: DNG pm=0.0304 lk=0.021 wass=1.2 elapsed=12.4s
+  L2s  3: DNG pm=0.0246 lk=0.019 wass=1.3 elapsed=12.4s
+  L2s  4: DNG pm=0.0263 lk=0.018 wass=1.5 elapsed=12.4s
+  L2s  5: DNG pm=0.0254 lk=0.019 wass=1.6 elapsed=12.4s
+  L2s  6: DNG pm=0.0299 lk=0.022 wass=1.2 elapsed=12.5s
+  L2s  7: DNG pm=0.0255 lk=0.018 wass=1.6 elapsed=12.5s
+  L2s  8: DNG pm=0.0313 lk=0.025 wass=1.4 elapsed=12.5s
+  L2s  9: DNG pm=0.0258 lk=0.019 wass=1.5 elapsed=12.5s
+  L3s  0: DNG pm=0.0303 lk=0.024 wass=1.3 elapsed=12.7s
+  L3s  1: DNG pm=0.0350 lk=0.026 wass=1.4 elapsed=12.6s
+  L3s  2: DNG pm=0.0319 lk=0.023 wass=1.6 elapsed=12.6s
+  L3s  3: DNG pm=0.0279 lk=0.020 wass=1.3 elapsed=12.7s
+  L3s  4: DNG pm=0.0231 lk=0.016 wass=1.3 elapsed=12.6s
+  L3s  5: DNG pm=0.0340 lk=0.024 wass=1.2 elapsed=12.6s
+  L3s  6: DNG pm=0.0341 lk=0.026 wass=1.3 elapsed=12.7s
+  L3s  7: DNG pm=0.0292 lk=0.023 wass=1.6 elapsed=12.7s
+  L3s  8: DNG pm=0.0378 lk=0.029 wass=1.2 elapsed=12.7s
+  L3s  9: DNG pm=0.0370 lk=0.028 wass=1.1 elapsed=12.7s
+  L4s  0: DNG pm=0.0206 lk=0.018 wass=1.2 elapsed=12.8s
+  L4s  1: DNG pm=0.0201 lk=0.014 wass=1.2 elapsed=12.8s
+  L4s  2: DNG pm=0.0137 lk=0.008 wass=1.8 elapsed=12.8s
+  L4s  3: DNG pm=0.0169 lk=0.014 wass=1.6 elapsed=12.9s
+  L4s  4: DNG pm=0.0142 lk=0.010 wass=1.7 elapsed=12.8s
+  L4s  5: DNG pm=0.0115 lk=0.009 wass=1.8 elapsed=12.7s
+  L4s  6: DNG pm=0.0184 lk=0.011 wass=1.9 elapsed=12.8s
+  L4s  7: DNG pm=0.0124 lk=0.009 wass=1.5 elapsed=12.8s
+  L4s  8: DNG pm=0.0190 lk=0.015 wass=1.7 elapsed=12.8s
+  L4s  9: DNG pm=0.0116 lk=0.009 wass=1.4 elapsed=12.8s
+  → Oracle pm=0.0113 wass=1.3 | DNG pm=0.0196±0.0089 lk=0.016 wass=1.5±0.3
+
+====================================================================================================
+DNG T ABLATION TABLE (lambda0=1.0, tau=1.0)
+====================================================================================================
+       T |   orc_pm  orc_wass |   dng_pm      ± |  dng_wass       ± |  dng_lk
+  ------------------------------------------------------------------------------
+    2000 |   0.0113       1.3 |   0.0196 0.0089 |       1.5     0.3 |   0.016
+
+Done — 2026-07-30 18:17:16

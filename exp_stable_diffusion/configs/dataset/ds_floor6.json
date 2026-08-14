@@ -1,0 +1,9 @@
+{
+  "tag": "cafe_terrace",
+  "subject": "a cafe terrace at night under a starry sky",
+  "kind": "content",
+  "out_kind": "floor",
+  "seed_block": 20000000,
+  "part": 6,
+  "n": 1024
+}

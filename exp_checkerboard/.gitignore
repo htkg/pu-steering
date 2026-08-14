@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+ckpts/*
+!ckpts/checker_score.pt
+results/safed_frags/

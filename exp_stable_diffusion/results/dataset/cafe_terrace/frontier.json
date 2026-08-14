@@ -1,0 +1,545 @@
+{
+  "dataset": "results/dataset/cafe_terrace/dataset.pt",
+  "ref_pc": 0.24080716449093853,
+  "n_ref": 2048,
+  "kid_subset_size": 1024,
+  "kid_n_subsets": 100,
+  "rows": [
+    {
+      "method": "floor",
+      "n": 2048,
+      "pc": 0.23811849092913862,
+      "fid": 18.51907301050096,
+      "kid": 0.000205261368491767,
+      "csd_frechet": 0.00935251917542046
+    },
+    {
+      "method": "avoided_style",
+      "n": 2048,
+      "weighted": false,
+      "anchor": true,
+      "pc": 0.6454788735470531,
+      "fid": 164.32388821396472,
+      "kid": 0.19822783152146342,
+      "csd_frechet": 0.6614868058363488
+    },
+    {
+      "method": "unconditional_content",
+      "n": 2048,
+      "weighted": false,
+      "anchor": true,
+      "pc": 0.4091773436424899,
+      "fid": 60.9789286044051,
+      "kid": 0.05517683538090523,
+      "csd_frechet": 0.21344701308671488
+    },
+    {
+      "method": "sld_max",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "sld_max_shard0.pt",
+        "sld_max_shard1.pt"
+      ],
+      "pc_unweighted": 0.334316069401253,
+      "fid_unweighted": 43.08138233445209,
+      "kid_unweighted": 0.029352457926978957,
+      "csd_frechet_unweighted": 0.11410050681926365,
+      "pc": 0.334316069401253,
+      "fid": 43.08138233445209,
+      "kid": 0.029352457926978957,
+      "csd_frechet": 0.11410050681926365
+    },
+    {
+      "method": "sld_xxmax",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "sld_xxmax_shard0.pt",
+        "sld_xxmax_shard1.pt"
+      ],
+      "pc_unweighted": 0.3171321089305821,
+      "fid_unweighted": 41.82278007006465,
+      "kid_unweighted": 0.026266411872587457,
+      "csd_frechet_unweighted": 0.11847780209268433,
+      "pc": 0.3171321089305821,
+      "fid": 41.82278007006465,
+      "kid": 0.026266411872587457,
+      "csd_frechet": 0.11847780209268433
+    },
+    {
+      "method": "sld_x3max",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "sld_x3max_shard0.pt",
+        "sld_x3max_shard1.pt"
+      ],
+      "pc_unweighted": 0.295780165833204,
+      "fid_unweighted": 43.6978334754325,
+      "kid_unweighted": 0.02842031069906714,
+      "csd_frechet_unweighted": 0.1795086814443697,
+      "pc": 0.295780165833204,
+      "fid": 43.6978334754325,
+      "kid": 0.02842031069906714,
+      "csd_frechet": 0.1795086814443697
+    },
+    {
+      "method": "negcfg_s1p5",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "negcfg_s1p5_shard0.pt",
+        "negcfg_s1p5_shard1.pt"
+      ],
+      "pc_unweighted": 0.27905093156146044,
+      "fid_unweighted": 112.5826749276876,
+      "kid_unweighted": 0.10744601066613627,
+      "csd_frechet_unweighted": 0.9393892949595446,
+      "pc": 0.27905093156146044,
+      "fid": 112.5826749276876,
+      "kid": 0.10744601066613627,
+      "csd_frechet": 0.9393892949595446
+    },
+    {
+      "method": "negcfg_s2",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "negcfg_s2_shard0.pt",
+        "negcfg_s2_shard1.pt"
+      ],
+      "pc_unweighted": 0.24568237865892983,
+      "fid_unweighted": 100.43768053993028,
+      "kid_unweighted": 0.0902007957736498,
+      "csd_frechet_unweighted": 0.9240508932781328,
+      "pc": 0.24568237865892983,
+      "fid": 100.43768053993028,
+      "kid": 0.0902007957736498,
+      "csd_frechet": 0.9240508932781328
+    },
+    {
+      "method": "negcfg_s2p5",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "negcfg_s2p5_shard0.pt",
+        "negcfg_s2p5_shard1.pt"
+      ],
+      "pc_unweighted": 0.22907214618313182,
+      "fid_unweighted": 91.88071781242485,
+      "kid_unweighted": 0.07778977633316392,
+      "csd_frechet_unweighted": 0.9113255471599837,
+      "pc": 0.22907214618313182,
+      "fid": 91.88071781242485,
+      "kid": 0.07778977633316392,
+      "csd_frechet": 0.9113255471599837
+    },
+    {
+      "method": "negcfg_s3",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "negcfg_s3_shard0.pt",
+        "negcfg_s3_shard1.pt"
+      ],
+      "pc_unweighted": 0.22215551419198926,
+      "fid_unweighted": 85.55728332839584,
+      "kid_unweighted": 0.0677817268257863,
+      "csd_frechet_unweighted": 0.8996974250589673,
+      "pc": 0.22215551419198926,
+      "fid": 85.55728332839584,
+      "kid": 0.0677817268257863,
+      "csd_frechet": 0.8996974250589673
+    },
+    {
+      "method": "negcfg_s4",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "negcfg_s4_shard0.pt",
+        "negcfg_s4_shard1.pt"
+      ],
+      "pc_unweighted": 0.22374838841121722,
+      "fid_unweighted": 82.74699161533448,
+      "kid_unweighted": 0.06083592710278409,
+      "csd_frechet_unweighted": 0.8965292669118219,
+      "pc": 0.22374838841121722,
+      "fid": 82.74699161533448,
+      "kid": 0.06083592710278409,
+      "csd_frechet": 0.8965292669118219
+    },
+    {
+      "method": "negcfg_s5",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "negcfg_s5_shard0.pt",
+        "negcfg_s5_shard1.pt"
+      ],
+      "pc_unweighted": 0.232709788792691,
+      "fid_unweighted": 85.21224219944634,
+      "kid_unweighted": 0.06285635841991719,
+      "csd_frechet_unweighted": 0.9044922429537037,
+      "pc": 0.232709788792691,
+      "fid": 85.21224219944634,
+      "kid": 0.06285635841991719,
+      "csd_frechet": 0.9044922429537037
+    },
+    {
+      "method": "negcfg_s6",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "negcfg_s6_shard0.pt",
+        "negcfg_s6_shard1.pt"
+      ],
+      "pc_unweighted": 0.2537314672578177,
+      "fid_unweighted": 87.85890612748767,
+      "kid_unweighted": 0.0660381617622775,
+      "csd_frechet_unweighted": 0.9345506210561623,
+      "pc": 0.2537314672578177,
+      "fid": 87.85890612748767,
+      "kid": 0.0660381617622775,
+      "csd_frechet": 0.9345506210561623
+    },
+    {
+      "method": "negcfg_s7p5",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "negcfg_s7p5_shard0.pt",
+        "negcfg_s7p5_shard1.pt"
+      ],
+      "pc_unweighted": 0.27963785890784704,
+      "fid_unweighted": 97.35284646771555,
+      "kid_unweighted": 0.07754722351217103,
+      "csd_frechet_unweighted": 0.9918581062638255,
+      "pc": 0.27963785890784704,
+      "fid": 97.35284646771555,
+      "kid": 0.07754722351217103,
+      "csd_frechet": 0.9918581062638255
+    },
+    {
+      "method": "dng_c_l100",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l100_shard0.pt",
+        "dng_c_l100_shard1.pt"
+      ],
+      "pc_unweighted": 0.38206928594450495,
+      "fid_unweighted": 56.87172378106601,
+      "kid_unweighted": 0.04997125969829552,
+      "csd_frechet_unweighted": 0.1915536258295094,
+      "pc": 0.38206928594450495,
+      "fid": 56.87172378106601,
+      "kid": 0.04997125969829552,
+      "csd_frechet": 0.1915536258295094
+    },
+    {
+      "method": "dng_c_l150",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l150_shard0.pt",
+        "dng_c_l150_shard1.pt"
+      ],
+      "pc_unweighted": 0.3437657194006482,
+      "fid_unweighted": 49.17767599869268,
+      "kid_unweighted": 0.03701518836293081,
+      "csd_frechet_unweighted": 0.15539913356010848,
+      "pc": 0.3437657194006482,
+      "fid": 49.17767599869268,
+      "kid": 0.03701518836293081,
+      "csd_frechet": 0.15539913356010848
+    },
+    {
+      "method": "dng_c_l180",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l180_shard0.pt",
+        "dng_c_l180_shard1.pt"
+      ],
+      "pc_unweighted": 0.32211109139217114,
+      "fid_unweighted": 44.938187830853735,
+      "kid_unweighted": 0.030336771063111865,
+      "csd_frechet_unweighted": 0.14522619826283933,
+      "pc": 0.32211109139217114,
+      "fid": 44.938187830853735,
+      "kid": 0.030336771063111865,
+      "csd_frechet": 0.14522619826283933
+    },
+    {
+      "method": "dng_c_l200",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l200_shard0.pt",
+        "dng_c_l200_shard1.pt"
+      ],
+      "pc_unweighted": 0.3026423274277412,
+      "fid_unweighted": 44.87838399205663,
+      "kid_unweighted": 0.02734338043392515,
+      "csd_frechet_unweighted": 0.14488831571443328,
+      "pc": 0.3026423274277412,
+      "fid": 44.87838399205663,
+      "kid": 0.02734338043392515,
+      "csd_frechet": 0.14488831571443328
+    },
+    {
+      "method": "dng_c_l220",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l220_shard0.pt",
+        "dng_c_l220_shard1.pt"
+      ],
+      "pc_unweighted": 0.2921674244733493,
+      "fid_unweighted": 47.21638169213708,
+      "kid_unweighted": 0.02689197206106494,
+      "csd_frechet_unweighted": 0.16318205183887946,
+      "pc": 0.2921674244733493,
+      "fid": 47.21638169213708,
+      "kid": 0.02689197206106494,
+      "csd_frechet": 0.16318205183887946
+    },
+    {
+      "method": "dng_c_l240",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l240_shard0.pt",
+        "dng_c_l240_shard1.pt"
+      ],
+      "pc_unweighted": 0.28360984311858517,
+      "fid_unweighted": 51.80265665250431,
+      "kid_unweighted": 0.02981071834920237,
+      "csd_frechet_unweighted": 0.19624233060116625,
+      "pc": 0.28360984311858517,
+      "fid": 51.80265665250431,
+      "kid": 0.02981071834920237,
+      "csd_frechet": 0.19624233060116625
+    },
+    {
+      "method": "dng_c_l260",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l260_shard0.pt",
+        "dng_c_l260_shard1.pt"
+      ],
+      "pc_unweighted": 0.2766004447553899,
+      "fid_unweighted": 63.84495149448833,
+      "kid_unweighted": 0.04107123696381684,
+      "csd_frechet_unweighted": 0.24316611207153294,
+      "pc": 0.2766004447553899,
+      "fid": 63.84495149448833,
+      "kid": 0.04107123696381684,
+      "csd_frechet": 0.24316611207153294
+    },
+    {
+      "method": "dng_c_l280",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l280_shard0.pt",
+        "dng_c_l280_shard1.pt"
+      ],
+      "pc_unweighted": 0.283731000391161,
+      "fid_unweighted": 77.45133174278152,
+      "kid_unweighted": 0.05557370820081513,
+      "csd_frechet_unweighted": 0.30399495599618,
+      "pc": 0.283731000391161,
+      "fid": 77.45133174278152,
+      "kid": 0.05557370820081513,
+      "csd_frechet": 0.30399495599618
+    },
+    {
+      "method": "dng_c_l300",
+      "n": 2048,
+      "weighted": false,
+      "shards": [
+        "dng_c_l300_shard0.pt",
+        "dng_c_l300_shard1.pt"
+      ],
+      "pc_unweighted": 0.28882035886153357,
+      "fid_unweighted": 93.16580869751209,
+      "kid_unweighted": 0.07371403536965296,
+      "csd_frechet_unweighted": 0.3657168636448648,
+      "pc": 0.28882035886153357,
+      "fid": 93.16580869751209,
+      "kid": 0.07371403536965296,
+      "csd_frechet": 0.3657168636448648
+    },
+    {
+      "method": "ow_nores_l8",
+      "n": 2048,
+      "weighted": true,
+      "shards": [
+        "ow_nores_l8_shard0.pt",
+        "ow_nores_l8_shard1.pt"
+      ],
+      "pc_unweighted": 0.3139284018179248,
+      "fid_unweighted": 40.407906846692015,
+      "kid_unweighted": 0.02430720446119611,
+      "csd_frechet_unweighted": 0.11387112355077611,
+      "ess_per_m": 0.49956172590162423,
+      "ess_mean": 31.97195045770395,
+      "ess_std": 0.6356057454236546,
+      "pc": 0.2724902417637063,
+      "fid": 39.227689632883084,
+      "kid": 0.010394850381474363,
+      "csd_frechet": 0.10313316299819841,
+      "pc_weighted": 0.2724902417637063,
+      "fid_weighted": 39.227689632883084,
+      "kid_weighted": 0.010394850381474363,
+      "csd_frechet_weighted": 0.10313316299819841
+    },
+    {
+      "method": "ow_nores_l12",
+      "n": 2048,
+      "weighted": true,
+      "shards": [
+        "ow_nores_l12_shard0.pt",
+        "ow_nores_l12_shard1.pt"
+      ],
+      "pc_unweighted": 0.3191163849767362,
+      "fid_unweighted": 41.759280786497925,
+      "kid_unweighted": 0.02561539170553655,
+      "csd_frechet_unweighted": 0.12189874670355105,
+      "ess_per_m": 0.5081453056139303,
+      "ess_mean": 32.52129955929154,
+      "ess_std": 0.6447989414414839,
+      "pc": 0.2681369203982534,
+      "fid": 38.07597039641843,
+      "kid": 0.008973261499633622,
+      "csd_frechet": 0.10623446812708204,
+      "pc_weighted": 0.2681369203982534,
+      "fid_weighted": 38.07597039641843,
+      "kid_weighted": 0.008973261499633622,
+      "csd_frechet_weighted": 0.10623446812708204
+    },
+    {
+      "method": "ou_e5_l16",
+      "n": 2048,
+      "weighted": true,
+      "shards": [
+        "ou_e5_l16_shard0.pt",
+        "ou_e5_l16_shard1.pt"
+      ],
+      "pc_unweighted": 0.2801680445710451,
+      "fid_unweighted": 33.409455496965336,
+      "kid_unweighted": 0.01059260294228081,
+      "csd_frechet_unweighted": 0.08981461762976894,
+      "ess_per_m": 0.49196591209225493,
+      "ess_mean": 31.485818373904316,
+      "ess_std": 4.471054886859012,
+      "pc": 0.28137264513766386,
+      "fid": 43.42426577125059,
+      "kid": 0.011552737679576097,
+      "csd_frechet": 0.09428319519979977,
+      "pc_weighted": 0.28137264513766386,
+      "fid_weighted": 43.42426577125059,
+      "kid_weighted": 0.011552737679576097,
+      "csd_frechet_weighted": 0.09428319519979977
+    },
+    {
+      "method": "ou_m128_e5_l16",
+      "n": 2048,
+      "weighted": true,
+      "shards": [
+        "ou_m128_e5_l16_shard0.pt",
+        "ou_m128_e5_l16_shard1.pt"
+      ],
+      "pc_unweighted": 0.235441665352169,
+      "fid_unweighted": 28.095170736260457,
+      "kid_unweighted": 0.005348437502666021,
+      "csd_frechet_unweighted": 0.09463330357664146,
+      "ess_per_m": 0.46800176264097326,
+      "ess_mean": 59.90422561804458,
+      "ess_std": 6.870515499850485,
+      "pc": 0.22786118777341807,
+      "fid": 38.68228041460145,
+      "kid": 0.004714144489290639,
+      "csd_frechet": 0.10966696199179893,
+      "pc_weighted": 0.22786118777341807,
+      "fid_weighted": 38.68228041460145,
+      "kid_weighted": 0.004714144489290639,
+      "csd_frechet_weighted": 0.10966696199179893
+    },
+    {
+      "method": "ou_m128_e5_l24",
+      "n": 2048,
+      "weighted": true,
+      "shards": [
+        "ou_m128_e5_l24_shard0.pt",
+        "ou_m128_e5_l24_shard1.pt"
+      ],
+      "pc_unweighted": 0.2534626182419148,
+      "fid_unweighted": 29.535916660246585,
+      "kid_unweighted": 0.005762219495875018,
+      "csd_frechet_unweighted": 0.08247054343140936,
+      "ess_per_m": 0.4990609567953951,
+      "ess_mean": 63.87980246981057,
+      "ess_std": 12.36718744322323,
+      "pc": 0.23920838186435364,
+      "fid": 39.94931132303918,
+      "kid": 0.005962014506514457,
+      "csd_frechet": 0.11128867245869645,
+      "pc_weighted": 0.23920838186435364,
+      "fid_weighted": 39.94931132303918,
+      "kid_weighted": 0.005962014506514457,
+      "csd_frechet_weighted": 0.11128867245869645
+    },
+    {
+      "method": "ou_m128_e4_l20",
+      "n": 2048,
+      "weighted": true,
+      "shards": [
+        "ou_m128_e4_l20_shard0.pt",
+        "ou_m128_e4_l20_shard1.pt"
+      ],
+      "pc_unweighted": 0.2431573366560453,
+      "fid_unweighted": 31.068364908413685,
+      "kid_unweighted": 0.005555734419655059,
+      "csd_frechet_unweighted": 0.0851464510458283,
+      "ess_per_m": 0.5079396407107064,
+      "ess_mean": 65.01627401097042,
+      "ess_std": 13.652609311182772,
+      "pc": 0.2445732782585482,
+      "fid": 43.25498267614711,
+      "kid": 0.007205405051304403,
+      "csd_frechet": 0.09196970266001825,
+      "pc_weighted": 0.2445732782585482,
+      "fid_weighted": 43.25498267614711,
+      "kid_weighted": 0.007205405051304403,
+      "csd_frechet_weighted": 0.09196970266001825
+    },
+    {
+      "method": "ou_m64_e5_l16",
+      "n": 2048,
+      "weighted": true,
+      "shards": [
+        "ou_m64_e5_l16_shard0.pt",
+        "ou_m64_e5_l16_shard1.pt"
+      ],
+      "pc_unweighted": 0.2762313976626397,
+      "fid_unweighted": 33.455753701379194,
+      "kid_unweighted": 0.010502834985703898,
+      "csd_frechet_unweighted": 0.0856742259980352,
+      "ess_per_m": 0.48251210965810076,
+      "ess_mean": 30.88077501811845,
+      "ess_std": 2.7890622696677925,
+      "pc": 0.28322804112368394,
+      "fid": 43.2714690146791,
+      "kid": 0.01151413852073091,
+      "csd_frechet": 0.09594686005907171,
+      "pc_weighted": 0.28322804112368394,
+      "fid_weighted": 43.2714690146791,
+      "kid_weighted": 0.01151413852073091,
+      "csd_frechet_weighted": 0.09594686005907171
+    }
+  ]
+}

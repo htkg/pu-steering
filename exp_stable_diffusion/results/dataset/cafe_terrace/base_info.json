@@ -1,0 +1,18 @@
+{
+  "n_content": 8192,
+  "n_reference": 2048,
+  "drop_top_frac": 0.75,
+  "calib_pos_pc": 0.6457888959801728,
+  "calib_neg_pc": 0.35420628572981505,
+  "content_pc": 0.40955399907119494,
+  "reference_pc": 0.24080716449093853,
+  "fid_floor": 47.95244534714129,
+  "kid_floor": 0.016284943635036707,
+  "fid_content_vs_ref": 50.548766856713996,
+  "kid_content_vs_ref": 0.05679149914861506,
+  "vangogh_pc": 0.646560179267823,
+  "fid_vg_vs_content": 85.07232788352991,
+  "fid_vg_vs_ref": 171.0532820054858,
+  "kid_vg_vs_content": 0.08043452612743007,
+  "kid_vg_vs_ref": 0.19814556867072977
+}

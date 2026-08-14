@@ -1,0 +1,39 @@
+==============================================================================================================
+Case 2: Reference-based — Resample ON — Proposal: sd
+SD: eta=30, sd_s=20, cp=0.25, cos lam=2.0, rs_stop=20, systematic_sorted
+SafeDenoiser baselines: eta=[30.0, 50.0]
+Config f GMM (radius=10, sharp), T=100, M=1024
+5 layouts x 3 seeds = 15 trials
+==============================================================================================================
+  L0s  0: Orc=0.0029 SD30.0=0.1599 SD50.0=0.1096 | SDProp: raw=0.0952 w=0.0835 mc=1.00 ESS=1019 rs=6 elapsed=17.5s
+  L0s  1: Orc=0.0046 SD30.0=0.1616 SD50.0=0.1235 | SDProp: raw=0.1030 w=0.0842 mc=1.00 ESS=1015 rs=5 elapsed=14.0s
+  L0s  2: Orc=0.0018 SD30.0=0.1709 SD50.0=0.1274 | SDProp: raw=0.1255 w=0.1039 mc=1.00 ESS=1013 rs=5 elapsed=13.7s
+  L1s  0: Orc=0.0001 SD30.0=0.1231 SD50.0=0.0879 | SDProp: raw=0.0460 w=0.0411 mc=1.00 ESS=1019 rs=10 elapsed=13.7s
+  L1s  1: Orc=0.0009 SD30.0=0.1291 SD50.0=0.0703 | SDProp: raw=0.1000 w=0.0557 mc=1.00 ESS=995 rs=10 elapsed=14.2s
+  L1s  2: Orc=0.0002 SD30.0=0.1348 SD50.0=0.0726 | SDProp: raw=0.1123 w=0.0711 mc=1.00 ESS=1002 rs=9 elapsed=15.2s
+  L2s  0: Orc=0.0179 SD30.0=0.1288 SD50.0=0.0927 | SDProp: raw=0.1155 w=0.0905 mc=1.00 ESS=1010 rs=7 elapsed=14.0s
+  L2s  1: Orc=0.0259 SD30.0=0.1468 SD50.0=0.0831 | SDProp: raw=0.1207 w=0.0881 mc=1.00 ESS=1001 rs=7 elapsed=15.9s
+  L2s  2: Orc=0.0210 SD30.0=0.1457 SD50.0=0.1001 | SDProp: raw=0.1208 w=0.1101 mc=1.00 ESS=1020 rs=7 elapsed=16.1s
+  L3s  0: Orc=0.0218 SD30.0=0.1719 SD50.0=0.1333 | SDProp: raw=0.1114 w=0.0769 mc=1.00 ESS=1003 rs=4 elapsed=15.8s
+  L3s  1: Orc=0.0311 SD30.0=0.1803 SD50.0=0.1288 | SDProp: raw=0.1049 w=0.0896 mc=1.00 ESS=1014 rs=4 elapsed=15.7s
+  L3s  2: Orc=0.0248 SD30.0=0.1751 SD50.0=0.1234 | SDProp: raw=0.1125 w=0.0976 mc=1.00 ESS=1018 rs=4 elapsed=15.4s
+  L4s  0: Orc=0.0103 SD30.0=0.1127 SD50.0=0.0696 | SDProp: raw=0.1059 w=0.0738 mc=1.00 ESS=1005 rs=10 elapsed=15.3s
+  L4s  1: Orc=0.0095 SD30.0=0.1183 SD50.0=0.0579 | SDProp: raw=0.0915 w=0.0719 mc=1.00 ESS=1010 rs=11 elapsed=15.6s
+  L4s  2: Orc=0.0068 SD30.0=0.1117 SD50.0=0.0575 | SDProp: raw=0.1078 w=0.0805 mc=1.00 ESS=1009 rs=10 elapsed=15.2s
+
+==============================================================================================================
+SUMMARY: Resample ON — Proposal: sd (15 trials)
+==============================================================================================================
+  Oracle:   pm=0.0120+-0.0104
+  SD(eta=30.0): pm=0.1447+-0.0231 wass=2.2+-0.3
+  SD(eta=50.0): pm=0.0959+-0.0261 wass=3.6+-0.9
+
+  SDProp (raw): pm=0.1049+-0.0182 wass=1.9+-0.5
+  SDProp (w):   pm=0.0812+-0.0170 wass=1.9+-0.5
+  mc=1.000 ESS=1010+-7 rs=7.3
+
+  Win rates vs SD(eta=30.0):
+    raw_pm: 15/15
+    w_pm:   15/15
+
+Done

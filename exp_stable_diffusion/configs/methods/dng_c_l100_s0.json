@@ -1,0 +1,9 @@
+{
+  "tag": "cafe_terrace", "name": "dng_c_l100", "proposal": "dng",
+  "proposal_kwargs": { "lambda0": 100, "tau": 0.1, "delta": 0.02, "p0": 0.05, "anchor": "content", "cfg_scale": 7.5 },
+  "shard": 0, "seed_block": 65000000, "n": 1024,
+  "object": "a cafe terrace at night under a starry sky",
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "dataset_cache": "results/dataset/cafe_terrace/dataset.pt",
+  "M": 32, "num_steps": 50
+}
