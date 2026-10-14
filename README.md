@@ -45,3 +45,11 @@ It reports the style detection score, FID, KID, CSD-FD, and ESS/M for the weight
 <td><img src="exp_stable_diffusion/results/dataset/cafe_terrace/grids/sample_negcfg_s4_64.jpg" alt="Cafe-terrace samples with negative CFG" width="250"></td>
 </tr>
 </table>
+
+## Citation
+
+Hirohane Takagi and Masashi Sugiyama. Asymptotically Exact Negative Guidance of Diffusion Models via Positive-Unlabeled Learning. The 40th Annual Conference on Neural Information Processing Systems (NeurIPS2026), In Advances in Neural Information Processing Systems, **:****--****, 2026.
+
+```bibtex
+to be added
+```
